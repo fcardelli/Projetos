@@ -1,24 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="jquery-3.3.1.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+            $(document).ready(function(){
+                //$("button").click(function escreveNome(){
+                function escreveNome(){
+                    let primeiroNome = document.querySelector('#primeiroNome').value
+                    let ultimoNome = document.querySelector('#ultimoNome').value
+                    let nomeCompleto = primeiroNome + ' ' + ultimoNome
+                    console.log(nomeCompleto)
+                    document.querySelector("#labelResposta").innerHTML = nomeCompleto
+                    //Evita o Post do botão
+                    return false
+                }//)
+                let valor = $("valor")
+                //Botões da Calculadora
+                $('#1').click(function(){
+                    valor += 
+                    valor += '1'
+                }) 
+                console.log()
+                /*$('#2').querySelector.value += '2'
+                $('#3').querySelector.value += '3'
+                $('#4').querySelector.value += '4'
+                $('#5').querySelector.value += '5'
+                $('#6').querySelector.value += '6'
+                $('#7').querySelector.value += '7'
+                $('#8').querySelector.value += '8'
+                $('#9').querySelector.value += '9'
+                */
+                function calcular(){
+
+
+                }
+            })
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="registrarUsuario.js"></script>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="registraUsuario.js"></script>-->
 </head>
 <body>
+<form name="Calc">
+    <table>
+        <tr>
+            <td><input type="text" id="valor"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><button name="1">1</button></td>
+            <td><button name="2">2</button></td>
+            <td><button name="3">3</button></td>
+            <td><button name="adc">+</button></td>
+        </tr>
+    
+        <tr>
+            <td><button name="4">4</button></td>
+            <td><button name="5">5</button></td>
+            <td><button name="6">6</button></td>
+            <td><button name="sub">-</button></td>
+        </tr>
+  
+        <tr>
+            <td><button name="7">7</button></td>
+            <td><button name="8">8</button></td>
+            <td><button name="9">9</button></td>
+            <td><button name="div">/</button></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><button name="calcular">Calcular</button></td>
+            <td><button name="multi">*</button></td>
+        </tr>
+    </table>
+</form>
     <form>
         Primeiro nome:<br>
-        <input type="text" id="primeironome"><br>
+        <input type="text" id="primeiroNome"><br>
         Ultimo nome:<br>
-        <input type="text" id="ultimonome"><br>
+        <input type="text" id="ultimoNome"><br>
         <p></p>
-        <input type="submit" id="submit" value="Submit">
+        <button onclick="escreveNome()">Só Clica!</button> 
         <p></p>
         <label id="labelResposta"></label>
     </form>
+
 </body>
 </html>
