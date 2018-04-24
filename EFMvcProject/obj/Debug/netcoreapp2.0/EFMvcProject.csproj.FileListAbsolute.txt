@@ -1,0 +1,10 @@
+/home/cardelli/Documentos/Projetos/EFMvcProject/bin/Debug/netcoreapp2.0/EFMvcProject.deps.json
+/home/cardelli/Documentos/Projetos/EFMvcProject/bin/Debug/netcoreapp2.0/EFMvcProject.runtimeconfig.json
+/home/cardelli/Documentos/Projetos/EFMvcProject/bin/Debug/netcoreapp2.0/EFMvcProject.runtimeconfig.dev.json
+/home/cardelli/Documentos/Projetos/EFMvcProject/bin/Debug/netcoreapp2.0/EFMvcProject.dll
+/home/cardelli/Documentos/Projetos/EFMvcProject/bin/Debug/netcoreapp2.0/EFMvcProject.pdb
+/home/cardelli/Documentos/Projetos/EFMvcProject/obj/Debug/netcoreapp2.0/EFMvcProject.csproj.CoreCompileInputs.cache
+/home/cardelli/Documentos/Projetos/EFMvcProject/obj/Debug/netcoreapp2.0/EFMvcProject.AssemblyInfoInputs.cache
+/home/cardelli/Documentos/Projetos/EFMvcProject/obj/Debug/netcoreapp2.0/EFMvcProject.AssemblyInfo.cs
+/home/cardelli/Documentos/Projetos/EFMvcProject/obj/Debug/netcoreapp2.0/EFMvcProject.dll
+/home/cardelli/Documentos/Projetos/EFMvcProject/obj/Debug/netcoreapp2.0/EFMvcProject.pdb
