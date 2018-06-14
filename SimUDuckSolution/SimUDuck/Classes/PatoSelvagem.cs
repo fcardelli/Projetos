@@ -1,13 +1,29 @@
 using System;
 using SimUDuck.Classes;
+using SimUDuck.Interfaces;
 
 namespace SimUDuck.Classes
 {
-    class PatoSelvagem : Pato
+    public class PatoSelvagem : IPato
     {
-        public override void Voar()
+        public void Grasnar()
         {
-            Console.WriteLine("Pato Selvagem está voado agora!");
+            Console.WriteLine("Pato Selvagem está Grasnando...");
+        }
+
+        public void Nadar()
+        {
+            Console.WriteLine("Pato Selvagem está Nadando...");
+        }
+
+        public void Nadar(string nome)
+        {
+            Console.WriteLine(nome + "Pato Selvagem está Nadando...");
+        }
+
+        public void Voar()
+        {
+            Console.WriteLine("Pato Selvagem está Voando...");
         }
     }
 }
