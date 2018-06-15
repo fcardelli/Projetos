@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using SimUDuck.Classes;
 
 namespace SimUDuck
@@ -11,6 +12,13 @@ namespace SimUDuck
             Simulador simulador = new Simulador();
             simulador.Executar(new PatoSelvagem());
             simulador.Executar(new PatoCabecaVermelha());
+
+            FabricaPatos fabrica = new FabricaPatos();
+            var patos = fabrica.ObterPatos();
+            foreach(var item in patos)
+                simulador.Executar(item);
+
+            Console.ReadLine();
 
 
             /*
@@ -39,8 +47,6 @@ namespace SimUDuck
             // patoVermelho.Nadar("Pato Vermelho");
             // patoSelvagem.Voar();
             // patoVermelho.Voar();
-
-            Console.ReadLine();
         }
     }
 }
