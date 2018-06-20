@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "EcommerceWebDB": "Server=localhost;Database=EcommerceWebDB;Uid=root;Pwd=fe27091991;"
+    }
+}
