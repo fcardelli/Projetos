@@ -6,5 +6,6 @@ namespace Ecommerce.Web.Data
     public interface IProdutoRepository
     {
         List<Produto> ListarProdutos();
+        Produto ObterProdutoPorId(int id);
     }
 }
