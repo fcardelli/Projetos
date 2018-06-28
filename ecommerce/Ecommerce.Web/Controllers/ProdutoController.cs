@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Ecommerce.Web.Data;
 using System;
+using Ecommerce.Web.Models;
 
 namespace Ecommerce.Web.Controllers
 {   
@@ -41,6 +42,19 @@ namespace Ecommerce.Web.Controllers
             {
                 return BadRequest($"Erro: {ex.Message}");
                 
+            }
+        }
+
+        public IActionResult Post(Produto produto)
+        {
+            try
+            {
+                _produtoRepository.Salvar(produto);
+                return Created("/api/produto", produto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro: {ex.Message}");
             }
         }
     }

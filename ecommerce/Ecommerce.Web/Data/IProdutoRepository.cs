@@ -7,5 +7,6 @@ namespace Ecommerce.Web.Data
     {
         List<Produto> ListarProdutos();
         Produto ObterProdutoPorId(int id);
+        void Salvar(Produto produto);
     }
 }

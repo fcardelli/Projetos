@@ -22,6 +22,12 @@ namespace Ecommerce.Web.Data
         {
             return _ecommerceWebContext.Produtos.FirstOrDefault(p => p.Id == id);
         }
+
+        public void Salvar(Produto produto)
+        {
+            _ecommerceWebContext.Produtos.Add(produto);
+            _ecommerceWebContext.SaveChanges();
+        }
     }
 
 }
