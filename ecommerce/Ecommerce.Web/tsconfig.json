@@ -1,8 +1,11 @@
 {
   "compileOnSave": false,
+  "include": [
+    "./ClientApp", "./wwwroot/ts"
+  ],
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "baseUrl": "./wwwroot/ClientApp",
+    "outDir": "./wwwroot/ClientApp/dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",

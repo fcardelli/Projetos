@@ -12,7 +12,8 @@ namespace Ecommerce.Web.Controllers
         }
         public IActionResult Index()
         {
-            return View(_repository.ListarProdutos());
+            return View();
+            //return View(_repository.ListarProdutos());
         }
 
         public string Teste2()
