@@ -1,0 +1,9 @@
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/bin/Debug/netstandard2.0/EspacoViviTantra.Domain.deps.json
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/bin/Debug/netstandard2.0/EspacoViviTantra.Domain.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/bin/Debug/netstandard2.0/EspacoViviTantra.Domain.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.csprojResolveAssemblyReference.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.csproj.CoreCompileInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.AssemblyInfoInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.AssemblyInfo.cs
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Domain/obj/Debug/netstandard2.0/EspacoViviTantra.Domain.pdb

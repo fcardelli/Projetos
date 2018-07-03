@@ -1,0 +1,12 @@
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/bin/Debug/netstandard2.0/EspacoViviTantra.Data.deps.json
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/bin/Debug/netstandard2.0/EspacoViviTantra.Data.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/bin/Debug/netstandard2.0/EspacoViviTantra.Data.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/bin/Debug/netstandard2.0/EspacoViviTantra.Domain.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/bin/Debug/netstandard2.0/EspacoViviTantra.Domain.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.csprojResolveAssemblyReference.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.csproj.CoreCompileInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.AssemblyInfoInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.AssemblyInfo.cs
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.csproj.CopyComplete
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netstandard2.0/EspacoViviTantra.Data.pdb
