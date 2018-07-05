@@ -3,7 +3,7 @@ namespace EspacoViviTantra.Domain.Models
     public class Endereco
     {
         public int Id { get; set; }
-        public TipoEndedereco Tipo { get; set; }
+        public TipoEndereco Tipo { get; set; }
         public string Logradouro { get; set; }
         public string Complemento { get; set; }
         public string Numero { get; set; }

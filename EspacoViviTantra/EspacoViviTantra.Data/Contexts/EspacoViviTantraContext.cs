@@ -6,9 +6,18 @@ namespace EspacoViviTantra.Data.Contexts
     public class EspacoViviTantraContext : DbContext
     {
         public DbSet<Usuario> Usuarios {get; set;}
+        public DbSet<TipoUsuario> TiposUsuarios {get; set;}
+        public DbSet<UsuarioStatus> UsuarioStatus {get; set;}
         public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Imagem> Imagens { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<TipoEndereco> TiposEnderecos { get; set; }
+        public DbSet<Cidade> Cidades { get; set; }
+        public DbSet<Estado> Estados { get; set; }
+        public DbSet<Bairro> Bairros { get; set; }
+        public DbSet<Telefone> Telefones { get; set; }
+        public DbSet<TipoTelefone> TiposTelefones { get; set; }
         
         public EspacoViviTantraContext(DbContextOptions<EspacoViviTantraContext> options):base(options)
         {
