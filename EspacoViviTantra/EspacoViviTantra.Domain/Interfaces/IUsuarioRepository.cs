@@ -8,5 +8,6 @@ namespace EspacoViviTantra.Domain.Interfaces
         void Salvar(Usuario usuario);
         List<Usuario> ListarUsuarios();
         Usuario ObterUsuarioPorId(int id);
+        Usuario ObterUsuarioPorLogin(string login);
     }    
 }

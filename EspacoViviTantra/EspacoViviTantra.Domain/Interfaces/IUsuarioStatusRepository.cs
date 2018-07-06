@@ -6,8 +6,8 @@ namespace EspacoViviTantra.Domain.Interfaces
     public interface IUsuarioStatusRepository
     {
         void Salvar(UsuarioStatus usuarioStatus);
-        List<UsuarioStatus> ListarTiposUsuarios();
+        List<UsuarioStatus> ListarUsuariosStatus();
         UsuarioStatus ObterUsuarioStatusPorId(int id);
-        UsuarioStatus ObterUsuarioStatusPorDescricao(string nome);
+        UsuarioStatus ObterUsuarioStatusPorDescricao(string descricao);
     }
 }

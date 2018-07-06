@@ -7,6 +7,8 @@ namespace EspacoViviTantra.Domain.Interfaces
     {
         void Salvar(Telefone telefone);
         List<Telefone> ListarTelefones();
-        Usuario ObterTelefonePorId(int id);
+        Telefone ObterTelefonePorId(int id);
+        Telefone ObterTelefonePorNumero(string numero);
+
     }
 }

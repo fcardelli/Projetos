@@ -9,6 +9,6 @@ namespace EspacoViviTantra.Domain.Interfaces
         List<Imagem> ListarImagens();
         Imagem ObterImagemPorId(int id);
         Imagem ObterImagemPorNome(string nome);
-        Imagem ObterImagemPorCaminho(string cpf);
+        Imagem ObterImagemPorCaminho(string caminho);
     }
 }

@@ -8,7 +8,7 @@ namespace EspacoViviTantra.Domain.Interfaces
         void Salvar(Endereco endereco);
         List<Endereco> ListarEnderecos();
         Endereco ObterEnderecoPorId(int id);
-        Endereco ObterEnderecoPorLogradouro(string nome);
-        Endereco ObterEnderecoPorCep(string cpf);
+        Endereco ObterEnderecoPorLogradouro(string logradouro);
+        Endereco ObterEnderecoPorCep(string cep);
     }
 }
