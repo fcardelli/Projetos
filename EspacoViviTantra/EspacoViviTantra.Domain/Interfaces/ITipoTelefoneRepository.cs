@@ -8,6 +8,6 @@ namespace EspacoViviTantra.Domain.Interfaces
         void Salvar(TipoTelefone tipoTelefone);
         List<TipoTelefone> ListarTiposTelefones();
         TipoTelefone ObterTipoTelefonePorId(int id);
-        TipoTelefone ObterTipoTelefonePorDescricao(string nome);
+        TipoTelefone ObterTipoTelefonePorDescricao(string descricao);
     }
 }

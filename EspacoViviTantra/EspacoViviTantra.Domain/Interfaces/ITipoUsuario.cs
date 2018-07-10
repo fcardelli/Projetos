@@ -8,6 +8,6 @@ namespace EspacoViviTantra.Domain.Interfaces
         void Salvar(TipoUsuario tipoUsuario);
         List<TipoUsuario> ListarTiposUsuarios();
         TipoUsuario ObterTipoUsuarioPorId(int id);
-        TipoUsuario ObterTipoUsuarioPorDescricao(string nome);
+        TipoUsuario ObterTipoUsuarioPorDescricao(string descricao);
     }
 }

@@ -28,12 +28,14 @@ namespace EspacoViviTantra.Data.Contexts
         {
             //Modelagem de Entidades
 
+            //Bairro
+            modelBuilder.Entity<Bairro>().HasKey(b => b.Id);
+            
             //Primary Keys
             modelBuilder.Entity<Usuario>().HasKey(u => u.Id);
             modelBuilder.Entity<Pessoa>().HasKey(p => p.Id);
             modelBuilder.Entity<Imagem>().HasKey(i => i.Id);
             modelBuilder.Entity<Post>().HasKey(p => p.Id);
-            modelBuilder.Entity<Bairro>().HasKey(b => b.Id);
             modelBuilder.Entity<Cidade>().HasKey(c => c.Id);
             modelBuilder.Entity<Estado>().HasKey(e => e.Id);
             modelBuilder.Entity<Endereco>().HasKey(e => e.Id);

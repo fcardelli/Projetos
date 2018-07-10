@@ -8,6 +8,6 @@ namespace EspacoViviTantra.Domain.Interfaces
         void Salvar(TipoEndereco tipoEndereco);
         List<TipoEndereco> ListarTiposEnderecos();
         TipoEndereco ObterTipoEnderecoPorId(int id);
-        TipoEndereco ObterTipoEnderecoPorDescricao(string nome);
+        TipoEndereco ObterTipoEnderecoPorDescricao(string descricao);
     }
 }
