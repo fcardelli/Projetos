@@ -86,6 +86,12 @@ namespace EspacoViviTantra.Data.Contexts
             modelBuilder.Entity<TipoPost>().Property(t => t.Descricao).HasMaxLength(50);
             //Telefone
             modelBuilder.Entity<Telefone>().HasKey(t => t.Id);
+            modelBuilder.Entity<Telefone>().Property(t => t.Numero).HasColumnType("varchar");
+            modelBuilder.Entity<Telefone>().Property(t => t.Numero).HasMaxLength(15);
+            //TipoTelefone
+            modelBuilder.Entity<TipoTelefone>().HasKey(t => t.Id);
+            modelBuilder.Entity<TipoTelefone>().Property(t => t.Descricao).HasColumnType("varchar");
+            modelBuilder.Entity<TipoTelefone>().Property(t => t.Descricao).HasMaxLength(50);
             
             //Usuario
             modelBuilder.Entity<Usuario>().HasKey(u => u.Id);
