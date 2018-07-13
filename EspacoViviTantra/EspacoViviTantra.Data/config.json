@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings":{
+        "EspacoViviTantraDB": "server=localhost;userid=root;password=fe27091991;database=EspacoViviTantraDB"
+    }
+}
