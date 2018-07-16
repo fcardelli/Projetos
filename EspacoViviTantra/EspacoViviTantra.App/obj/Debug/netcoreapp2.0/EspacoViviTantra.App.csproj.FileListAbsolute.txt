@@ -1,0 +1,16 @@
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.deps.json
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.runtimeconfig.json
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.runtimeconfig.dev.json
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.csproj.CoreCompileInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.AssemblyInfoInputs.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.AssemblyInfo.cs
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.Data.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.Domain.dll
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.Data.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.Domain.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.csprojResolveAssemblyReference.cache
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.App/obj/Debug/netcoreapp2.0/EspacoViviTantra.App.csproj.CopyComplete

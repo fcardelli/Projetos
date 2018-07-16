@@ -35,12 +35,12 @@ namespace EspacoViviTantra.Data
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            //services.AddMvc();
             var sqlConnection = _configuration.GetConnectionString("EspacoViviTantraDB");
             services.AddDbContext<EspacoViviTantraContext>(options => 
                 options.UseMySql(sqlConnection, b => b.MigrationsAssembly("EspacoViviTantra.Data")));
 
-            services.AddScoped<IBairroRepository,BairroRepository>();
+            /*services.AddScoped<IBairroRepository,BairroRepository>();
             services.AddScoped<ICidadeRepository,CidadeRepository>();
             services.AddScoped<IEnderecoRepository,EnderecoRepository>();
             services.AddScoped<IEstadoRepository,EstadoRepository>();
@@ -53,7 +53,7 @@ namespace EspacoViviTantra.Data
             services.AddScoped<ITipoTelefoneRepository,TipoTelefoneRepository>();
             services.AddScoped<ITipoUsuarioRepository,TipoUsuarioRepository>();
             services.AddScoped<IUsuarioRepository,UsuarioRepository>();
-            services.AddScoped<IUsuarioStatusRepository,UsuarioStatusRepository>();
+            services.AddScoped<IUsuarioStatusRepository,UsuarioStatusRepository>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

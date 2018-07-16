@@ -11,3 +11,4 @@
 /home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netcoreapp2.0/EspacoViviTantra.Data.csproj.CopyComplete
 /home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netcoreapp2.0/EspacoViviTantra.Data.dll
 /home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netcoreapp2.0/EspacoViviTantra.Data.pdb
+/home/cardelli/Documentos/Projetos/EspacoViviTantra/EspacoViviTantra.Data/obj/Debug/netcoreapp2.0/EspacoViviTantra.Data.csprojResolveAssemblyReference.cache

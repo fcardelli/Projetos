@@ -20,5 +20,12 @@ namespace ProjetoModeloDDD.Application
         {
             return _produtoService.BuscarPorNome(nome);
         }
+
+        //services.AddMvc();
+            var sqlConnection = _configuration.GetConnectionString("EspacoViviTantraDB");
+            services.AddDbContext<EspacoViviTantraContext>(options => 
+                options.UseMySql(sqlConnection, b => b.MigrationsAssembly("EspacoViviTantra.Data")));
+
+        base.OnModelCreating(modelBuilder);
     }
 }
