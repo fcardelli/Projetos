@@ -1114,19 +1114,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
-#terapeuta {
+#team {
   background: #fff;
   padding: 60px 0;
 }
 
-#terapeuta .member {
+#team .member {
   text-align: center;
   margin-bottom: 20px;
   background: #000;
   position: relative;
 }
 
-#terapeuta .member .member-info {
+#team .member .member-info {
   opacity: 0;
   display: flex;
   justify-content: center;
@@ -1139,50 +1139,50 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s;
 }
 
-#teterapeuta .member .member-info-content {
+#team .member .member-info-content {
   margin-top: -50px;
   transition: margin 0.2s;
 }
 
-#terapeuta .member:hover .member-info {
+#team .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
 }
 
-#terapeuta .member:hover .member-info-content {
+#team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
 }
 
-#terapeuta .member h4 {
+#team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
 
-#terapeuta .member span {
+#team .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
 
-#terapeuta .member .social {
+#team .member .social {
   margin-top: 15px;
 }
 
-#terapeuta .member .social a {
+#team .member .social a {
   transition: none;
   color: #fff;
 }
 
-#terapeuta .member .social a:hover {
+#team .member .social a:hover {
   color: #18d26e;
 }
 
-#terapeuta .member .social i {
+#team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
