@@ -15,12 +15,12 @@ namespace EspacoViviTantra.App.Contexts
             _espacoViviTantraContext = espacoViviTantraContext;
         }
 
-        public void ConfigureServices(IServiceCollection services)
+       /* public void ConfigureServices(IServiceCollection services)
         {
             /*var sqlConnection = _configuration.GetConnectionString("EspacoViviTantraDB");
             services.AddDbContext<EspacoViviTantraContext>(options => 
                 options.UseMySql(sqlConnection, b => b.MigrationsAssembly("EspacoViviTantra.Data")));*/
-                
+            /*       
             services.AddMvc();
             services.AddScoped<IBairroRepository,BairroRepository>();
             services.AddScoped<ICidadeRepository,CidadeRepository>();
@@ -42,6 +42,6 @@ namespace EspacoViviTantra.App.Contexts
         {
             ChangeTracker.DetectChanges();
             return base.SaveChanges();
-        }
+        }*/
     }
 }

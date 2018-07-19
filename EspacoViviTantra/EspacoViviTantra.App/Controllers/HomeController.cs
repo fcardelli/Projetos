@@ -7,11 +7,11 @@ namespace EspacoViviTantraApp.Controllers
     [Route("api/[Controller]")]
     public class HomeController : Controller
     {
-        /*private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUsuarioRepository _usuarioRepository;
         public HomeController(IUsuarioRepository usuarioRepository)
         {
             _usuarioRepository = usuarioRepository;
-        }*/
+        }
         public IActionResult Index()
         {
             return View();
@@ -20,7 +20,16 @@ namespace EspacoViviTantraApp.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Mensagem teste!";
+            /*try
+            {
+                return Ok();//_usuarioRepository.ListarUsuarios());
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }*/
+            return "OK!";
         }
     }
 }
