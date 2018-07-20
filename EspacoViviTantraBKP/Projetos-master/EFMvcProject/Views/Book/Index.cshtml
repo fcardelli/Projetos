@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books</title>
+</head>
+<body>
+    @model IEnumerable<Author>
+    @{
+        ViewBag.Title = "Authors and their books";
+    }
+    <h1>@ViewBag.Title</h1>
+    @if(Model.Any()){
+        <ul>
+        @foreach(var author in Model){
+            <li>@author.FirstName @author.LastName
+                <ul>
+                @foreach(var book in author.Books){
+                    <li>@book.Title</li>
+                }
+                </ul>
+            </li>
+        }
+        </ul>
+    }
+    <div>@Html.ActionLink("New","create")
+</body>
+</html>

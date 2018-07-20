@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EspacoViviTantra.App/EspacoViviTantra.App.csproj"
+                "${workspaceFolder}/EspacoViviTantra.MVC/EspacoViviTantra.MVC.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

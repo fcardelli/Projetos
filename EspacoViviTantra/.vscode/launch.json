@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/EspacoViviTantra.App/bin/Debug/netcoreapp2.0/EspacoViviTantra.App.dll",
+            "program": "${workspaceFolder}/EspacoViviTantra.MVC/bin/Debug/netcoreapp2.0/EspacoViviTantra.MVC.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/EspacoViviTantra.App",
+            "cwd": "${workspaceFolder}/EspacoViviTantra.MVC",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
