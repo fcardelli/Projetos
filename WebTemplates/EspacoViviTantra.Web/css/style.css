@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -689,6 +689,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+#about .about-col ul{
+  list-style-type: disc;
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+  /*margin-bottom: 0;*/
+}
 /* Services Section
 --------------------------------*/
 #services {
