@@ -127,6 +127,10 @@ jQuery(document).ready(function( $ ) {
     allowPageScroll:"vertical"
   });
 
+  $('.carousel').carousel({
+    interval: 5000
+  });
+
   // Skills section
   $('#skills').waypoint(function() {
     $('.progress .progress-bar').each(function() {
@@ -171,3 +175,4 @@ jQuery(document).ready(function( $ ) {
   });
 
 });
+
